@@ -17,11 +17,11 @@ const routes: Routes = [
   {
     path: "",
     component: EmptyRouteComponent
+  },
+  {
+    path: "**",
+    redirectTo: "/"
   }
-  // {
-  //   path: "**",
-  //   redirectTo: "/login"
-  // }
   // { path: "**", redirectTo: "/gpd" }
 ];
 

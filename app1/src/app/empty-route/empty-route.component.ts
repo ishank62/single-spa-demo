@@ -11,4 +11,8 @@ export class EmptyRouteComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {}
+
+  back = () => {
+    window.history.pushState(null, null, "/app2");
+  };
 }
